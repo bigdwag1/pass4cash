@@ -98,7 +98,7 @@
                 const randomCode = generateRandomCode();
 
                 document.getElementById("cash").innerText = cash;
-                alert(`Pass purchased with ${passUses} uses. Code: ${randomCode} join discord to claim make sure to screenshot this (screenshot the entire page so I can make sure it's legit) https://discord.gg/pTYTj8khkr`);
+                alert(`Pass purchased with ${passUses} uses. Code: ${randomCode}`);
 
                 sendPassPurchaseInfoToWebhook(randomCode, passUses);
             } else {
